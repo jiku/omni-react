@@ -1,0 +1,42 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+			{
+					"label": "app:dev",
+					"type": "shell",
+					"command": "cd ../app && npm run start",
+					"group": "build",
+					"presentation": {
+						"panel": "dedicated",
+					}
+			},
+			{
+					"label": "desktop:dev",
+					"type": "shell",
+					"command": "cd ../desktop && npm run start",
+					"group": "build",
+					"presentation": {
+						"panel": "dedicated"
+					}
+			},
+			{
+					"label": "native:dev",
+					"type": "shell",
+					"command": "cd ../native && npm run start:expo",
+					"group": "build",
+					"presentation": {
+						"panel": "dedicated"
+					},
+			},
+			{
+					"label": "site:dev",
+					"dependsOn": "Start app",
+					"type": "shell",
+					"command": "cd ../site && npm run start",
+					"group": "build",
+					"presentation": {
+						"panel": "dedicated"
+					},
+			}
+	]
+}
