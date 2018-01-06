@@ -1,0 +1,23 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../app"
+		},
+		{
+			"path": "../desktop"
+		},
+		{
+			"path": "../native"
+		},
+		{
+			"path": "../notes"
+		},
+		{
+			"path": "../site"
+		}
+	],
+	"settings": {}
+}
