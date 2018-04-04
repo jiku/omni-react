@@ -2,12 +2,12 @@
 
 Basis for a React universal app/site.
 
-| PART																| DESCRIPTION																|
-|------------------------------------:|:------------------------------------------|
-| `app`																| Shared codebase														|
-| `desktop`											 			| Electron harness (macOS, Linux, Windows)	|
-| `native` 														| React Native harness (iOS, Android)				|
-| `site`															|	Site harness															|
+| PART																										| DESCRIPTION																|
+|--------------------------------------------------------:|:------------------------------------------|
+| [`app`](https://github.com/jiku/omni-react-app/)				|	Shared codebase														|
+| [`desktop`](https://github.com/jiku/omni-react-desktop/)| Electron harness (macOS, Linux, Windows)	|
+| [`native`](https://github.com/jiku/omni-react-native/)	| React Native harness (iOS, Android)				|
+| [`site`](https://github.com/jiku/omni-react-site/)			|	Site harness															|
 
 ## USE
 
